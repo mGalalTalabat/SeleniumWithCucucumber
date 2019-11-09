@@ -14,6 +14,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
+                <properties>
+                    <maven.compiler.source>1.6</maven.compiler.source>
+                    <maven.compiler.target>1.6</maven.compiler.target>
+                </properties>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
